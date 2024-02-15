@@ -1,0 +1,6 @@
+---
+source: tests/bool.rs
+assertion_line: 34
+expression: prog.unwrap()
+---
+and(arg0,arg1)

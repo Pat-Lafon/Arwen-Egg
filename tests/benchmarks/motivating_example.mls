@@ -1,0 +1,5 @@
+synth list -> nat -> bool satisfying
+
+[Cons(1, Nil), 1] -> True,
+[Cons(1, Cons(2, Cons(3, Nil))), 2] -> True,
+[Cons(2,Nil), 1] -> False,

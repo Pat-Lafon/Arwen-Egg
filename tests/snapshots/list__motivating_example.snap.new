@@ -1,0 +1,6 @@
+---
+source: tests/list.rs
+assertion_line: 47
+expression: prog.unwrap()
+---
+mem(arg1,arg0)

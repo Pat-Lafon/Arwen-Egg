@@ -1,0 +1,6 @@
+---
+source: tests/list.rs
+assertion_line: 39
+expression: prog.unwrap()
+---
+if (is_cons(arg0)) {hd(arg0)} else {O()}

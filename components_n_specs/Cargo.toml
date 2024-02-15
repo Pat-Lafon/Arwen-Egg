@@ -1,0 +1,10 @@
+[package]
+name = "components_n_specs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arwen_egg = { path = ".." }
+arwen_elrond_ipc = {path = "../../arwen_elrond_ipc"}

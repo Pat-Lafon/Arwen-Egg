@@ -1,0 +1,6 @@
+---
+source: tests/list.rs
+assertion_line: 31
+expression: prog.unwrap()
+---
+if (is_cons(arg0)) {cons(hd(arg0),cons(hd(tail(arg0)),arg1))} else {arg1}

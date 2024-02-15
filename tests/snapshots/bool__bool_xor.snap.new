@@ -1,0 +1,6 @@
+---
+source: tests/bool.rs
+assertion_line: 38
+expression: prog.unwrap()
+---
+and(or(not(arg1),not(arg0)),or(arg0,arg1))
